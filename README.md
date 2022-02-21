@@ -1,8 +1,7 @@
 # NLP
 
 [NLP Data Processing](https://github.com/akhil9650/NLP/blob/main/nlp_data_processing.ipynb)
-
-Data: [skillege.csv](https://github.com/akhil9650/NLP/blob/main/skillege.csv) 
+[skillege.csv](https://github.com/akhil9650/NLP/blob/main/skillege.csv) 
 This data lists skills scraped from LinkedIn on 92000+ profiles. Skills are transformed from list based format to one that is accepted by ord2Vec library.
 This is used in the subsequent notebook
 
