@@ -1,8 +1,8 @@
 # NLP
 
 [NLP Data Processing](https://github.com/akhil9650/NLP/blob/main/nlp_data_processing.ipynb)
-[skillege.csv](https://github.com/akhil9650/NLP/blob/main/skillege.csv) 
-This data lists skills scraped from LinkedIn on 92000+ profiles. Skills are transformed from list based format to one that is accepted by ord2Vec library.
+
+The data([skillege.csv](https://github.com/akhil9650/NLP/blob/main/skillege.csv)) used here lists skills scraped from LinkedIn on 92000+ profiles. Skills are transformed from list based format to one that is accepted by Word2Vec library. This text processing is necessary because this is the format Word2Vec is able to work on to create word embeddings.
 This is used in the subsequent notebook
 
 [Word2Vec](https://github.com/akhil9650/NLP/blob/main/word2vec.ipynb)
@@ -11,3 +11,5 @@ So, if a person has listed 'Software' as a skill, as expected the trained model 
 
 The real world use case of using this model and dataset as depicted here is to develop another approach for recommendations, or in simpler terms 'If you liked this, you'll also like' section that is a part of so many content-offering websites.
 
+FURTHER READING:
+https://towardsdatascience.com/introduction-to-word-embedding-and-word2vec-652d0c2060fa
